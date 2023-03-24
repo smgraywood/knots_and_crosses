@@ -22,7 +22,7 @@ h1{
     text-align: center;
 }
 
-.container {
+.gameBoard {
 	display: grid;
 	grid-template-columns: repeat(3, auto);
     margin-top: -20px;
