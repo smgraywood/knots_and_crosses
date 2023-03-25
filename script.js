@@ -104,6 +104,7 @@ function restartGame() {
 		gameBoardBox.innerHTML = "";
 		gameBoardBox.classList.remove("winningCombo");
 	});
+	options = new Array(9).fill("")
 	currentPlayer = cross;
 	player = "X";
 	running = true;
